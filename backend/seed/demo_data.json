@@ -1,0 +1,2065 @@
+{
+ "today": "2026-10-23",
+ "order": [
+  "c1",
+  "c2",
+  "elite"
+ ],
+ "companies": [
+  {
+   "slug": "c1",
+   "name": "Company 1",
+   "legal": "Company 1 AG",
+   "exch": "XETRA",
+   "code": "C1",
+   "price": 0.842,
+   "vol30": 184200,
+   "spread30": 14.2,
+   "trades30": 1284,
+   "value30": "€2.84M",
+   "feed_kind": "ok",
+   "feed_label": "Up to date",
+   "last_label": "23 Oct · 14:32 UTC",
+   "tim_target": 85,
+   "spr_target": 20,
+   "fee": 4800,
+   "shares": "120,000,000",
+   "float_shares": "85,000,000",
+   "insiders": "12%",
+   "institutions": "48%",
+   "email": "contact@company1.example",
+   "phone": "+49 69 000 1000",
+   "address": "Hauptstrasse 1, 60311 Frankfurt, Germany",
+   "sort_order": 0
+  },
+  {
+   "slug": "c2",
+   "name": "Company 2",
+   "legal": "Company 2 N.V.",
+   "exch": "Euronext",
+   "code": "C2",
+   "price": 1.264,
+   "vol30": 212840,
+   "spread30": 17.8,
+   "trades30": 1486,
+   "value30": "€3.91M",
+   "feed_kind": "warn",
+   "feed_label": "Delayed 2h",
+   "last_label": "23 Oct · 12:18 UTC",
+   "tim_target": 85,
+   "spr_target": 18,
+   "fee": 6400,
+   "shares": "96,500,000",
+   "float_shares": "61,200,000",
+   "insiders": "9%",
+   "institutions": "55%",
+   "email": "contact@company2.example",
+   "phone": "+31 20 000 2000",
+   "address": "Damrak 20, 1012 Amsterdam, Netherlands",
+   "sort_order": 1
+  },
+  {
+   "slug": "elite",
+   "name": "elite",
+   "legal": "elite Holding SE",
+   "exch": "XETRA",
+   "code": "ELT",
+   "price": 2.108,
+   "vol30": 85560,
+   "spread30": 12.6,
+   "trades30": 612,
+   "value30": "€1.74M",
+   "feed_kind": "ok",
+   "feed_label": "Up to date",
+   "last_label": "23 Oct · 14:29 UTC",
+   "tim_target": 85,
+   "spr_target": 16,
+   "fee": 5600,
+   "shares": "48,000,000",
+   "float_shares": "30,400,000",
+   "insiders": "21%",
+   "institutions": "40%",
+   "email": "contact@elite.example",
+   "phone": "+49 89 000 3000",
+   "address": "Maximilianstrasse 8, 80539 Munich, Germany",
+   "sort_order": 2
+  }
+ ],
+ "kpis": [
+  {
+   "company": "c1",
+   "period": "24h",
+   "tim": 96,
+   "tim_d": 2.1,
+   "vol": 11400,
+   "vol_d": 8.4,
+   "spr": 14.8,
+   "spr_d": -0.2,
+   "turn": 0.05,
+   "turn_d": 0.01,
+   "share": 6.8,
+   "traders": 4
+  },
+  {
+   "company": "c1",
+   "period": "7d",
+   "tim": 95.2,
+   "tim_d": 0.8,
+   "vol": 48900,
+   "vol_d": 3.1,
+   "spr": 14.5,
+   "spr_d": -0.4,
+   "turn": 0.21,
+   "turn_d": 0.02,
+   "share": 6.5,
+   "traders": 5
+  },
+  {
+   "company": "c1",
+   "period": "30d",
+   "tim": 96,
+   "tim_d": 1.4,
+   "vol": 184200,
+   "vol_d": 5.2,
+   "spr": 14.2,
+   "spr_d": -0.6,
+   "turn": 0.84,
+   "turn_d": 0.06,
+   "share": 6.3,
+   "traders": 5
+  },
+  {
+   "company": "c1",
+   "period": "since",
+   "tim": 94.1,
+   "tim_d": null,
+   "vol": 1398000,
+   "vol_d": null,
+   "spr": 15.1,
+   "spr_d": null,
+   "turn": 6.2,
+   "turn_d": null,
+   "share": 6.1,
+   "traders": 5
+  },
+  {
+   "company": "c2",
+   "period": "24h",
+   "tim": 79.6,
+   "tim_d": -3.2,
+   "vol": 14100,
+   "vol_d": -6.5,
+   "spr": 19.4,
+   "spr_d": 1.1,
+   "turn": 0.04,
+   "turn_d": -0.01,
+   "share": 9.4,
+   "traders": 3
+  },
+  {
+   "company": "c2",
+   "period": "7d",
+   "tim": 81,
+   "tim_d": -1.5,
+   "vol": 60300,
+   "vol_d": -2.2,
+   "spr": 18.6,
+   "spr_d": 0.5,
+   "turn": 0.18,
+   "turn_d": -0.02,
+   "share": 9.6,
+   "traders": 4
+  },
+  {
+   "company": "c2",
+   "period": "30d",
+   "tim": 82.1,
+   "tim_d": 0.4,
+   "vol": 212840,
+   "vol_d": 1.9,
+   "spr": 17.8,
+   "spr_d": -0.3,
+   "turn": 0.64,
+   "turn_d": 0.03,
+   "share": 9.1,
+   "traders": 4
+  },
+  {
+   "company": "c2",
+   "period": "since",
+   "tim": 80.7,
+   "tim_d": null,
+   "vol": 1612000,
+   "vol_d": null,
+   "spr": 18.9,
+   "spr_d": null,
+   "turn": 5.1,
+   "turn_d": null,
+   "share": 8.7,
+   "traders": 4
+  },
+  {
+   "company": "elite",
+   "period": "24h",
+   "tim": 98.1,
+   "tim_d": 0.6,
+   "vol": 5300,
+   "vol_d": 12,
+   "spr": 12.9,
+   "spr_d": -0.5,
+   "turn": 0.07,
+   "turn_d": 0.01,
+   "share": 4.2,
+   "traders": 2
+  },
+  {
+   "company": "elite",
+   "period": "7d",
+   "tim": 97.6,
+   "tim_d": 0.2,
+   "vol": 21800,
+   "vol_d": 7.4,
+   "spr": 12.7,
+   "spr_d": -0.3,
+   "turn": 0.29,
+   "turn_d": 0.04,
+   "share": 4.4,
+   "traders": 3
+  },
+  {
+   "company": "elite",
+   "period": "30d",
+   "tim": 97.3,
+   "tim_d": 0.9,
+   "vol": 85560,
+   "vol_d": 9.7,
+   "spr": 12.6,
+   "spr_d": -0.8,
+   "turn": 1.02,
+   "turn_d": 0.12,
+   "share": 4.6,
+   "traders": 3
+  },
+  {
+   "company": "elite",
+   "period": "since",
+   "tim": 96.4,
+   "tim_d": null,
+   "vol": 612000,
+   "vol_d": null,
+   "spr": 13.4,
+   "spr_d": null,
+   "turn": 7.8,
+   "turn_d": null,
+   "share": 5,
+   "traders": 3
+  }
+ ],
+ "market_stats": [
+  {
+   "company": "c1",
+   "market_trades30": 44300,
+   "buy_pct": 52
+  },
+  {
+   "company": "c2",
+   "market_trades30": 52100,
+   "buy_pct": 48.5
+  },
+  {
+   "company": "elite",
+   "market_trades30": 21400,
+   "buy_pct": 50.5
+  }
+ ],
+ "peer_groups": [
+  {
+   "slug": "ind",
+   "name": "European industrials",
+   "n": 8,
+   "sort_order": 0,
+   "measures": [
+    {
+     "order": 0,
+     "median": 162400,
+     "lo": 92000,
+     "hi": 281000,
+     "range_label": "92k – 281k"
+    },
+    {
+     "order": 1,
+     "median": 18.6,
+     "lo": 11.4,
+     "hi": 31.2,
+     "range_label": "11.4 – 31.2"
+    },
+    {
+     "order": 2,
+     "median": 82.4,
+     "lo": 61,
+     "hi": 98,
+     "range_label": "61% – 98%"
+    },
+    {
+     "order": 3,
+     "median": 0.72,
+     "lo": 0.31,
+     "hi": 1.4,
+     "range_label": "0.31% – 1.4%"
+    }
+   ]
+  },
+  {
+   "slug": "cap",
+   "name": "Companies with similar market cap",
+   "n": 12,
+   "sort_order": 1,
+   "measures": [
+    {
+     "order": 0,
+     "median": 148000,
+     "lo": 70000,
+     "hi": 240000,
+     "range_label": "70k – 240k"
+    },
+    {
+     "order": 1,
+     "median": 16.9,
+     "lo": 10.2,
+     "hi": 26.8,
+     "range_label": "10.2 – 26.8"
+    },
+    {
+     "order": 2,
+     "median": 86.1,
+     "lo": 66,
+     "hi": 99,
+     "range_label": "66% – 99%"
+    },
+    {
+     "order": 3,
+     "median": 0.66,
+     "lo": 0.28,
+     "hi": 1.2,
+     "range_label": "0.28% – 1.2%"
+    }
+   ]
+  },
+  {
+   "slug": "all",
+   "name": "All listed peers",
+   "n": 46,
+   "sort_order": 2,
+   "measures": [
+    {
+     "order": 0,
+     "median": 121500,
+     "lo": 18000,
+     "hi": 410000,
+     "range_label": "18k – 410k"
+    },
+    {
+     "order": 1,
+     "median": 21.3,
+     "lo": 8.9,
+     "hi": 44,
+     "range_label": "8.9 – 44.0"
+    },
+    {
+     "order": 2,
+     "median": 78.9,
+     "lo": 42,
+     "hi": 99,
+     "range_label": "42% – 99%"
+    },
+    {
+     "order": 3,
+     "median": 0.58,
+     "lo": 0.09,
+     "hi": 1.9,
+     "range_label": "0.09% – 1.9%"
+    }
+   ]
+  }
+ ],
+ "subscriptions": [
+  {
+   "company": "c1",
+   "plan": "Liquidity Essentials",
+   "term": "Annual service",
+   "start": "2026-03-01",
+   "end": "2027-02-28",
+   "renewal": "2027-03-01",
+   "status_kind": "ok",
+   "status_label": "Active",
+   "auto_renew": "Renews automatically unless cancelled 60 days before the end date",
+   "services": [
+    {
+     "order": 0,
+     "name": "Liquidity provision",
+     "scope": "Continuous two-sided quotes in Company 1 shares on XETRA"
+    },
+    {
+     "order": 1,
+     "name": "Spread and time-in-market monitoring",
+     "scope": "Daily coverage"
+    },
+    {
+     "order": 2,
+     "name": "Liquidity reporting",
+     "scope": "Monthly liquidity review"
+    }
+   ]
+  },
+  {
+   "company": "c2",
+   "plan": "Liquidity Plus",
+   "term": "Annual service",
+   "start": "2025-11-15",
+   "end": "2026-11-14",
+   "renewal": "2026-11-15",
+   "status_kind": "warn",
+   "status_label": "Renews soon",
+   "auto_renew": "Renews automatically unless cancelled 60 days before the end date",
+   "services": [
+    {
+     "order": 0,
+     "name": "Liquidity provision",
+     "scope": "Continuous two-sided quotes in Company 2 shares on Euronext, intraday coverage"
+    },
+    {
+     "order": 1,
+     "name": "Spread and time-in-market monitoring",
+     "scope": "Intraday coverage"
+    },
+    {
+     "order": 2,
+     "name": "Liquidity reporting",
+     "scope": "Monthly review and quarterly trading summary"
+    },
+    {
+     "order": 3,
+     "name": "Performance reviews",
+     "scope": "Quarterly review with Deltablock"
+    }
+   ]
+  },
+  {
+   "company": "elite",
+   "plan": "Investor Relations",
+   "term": "Annual service",
+   "start": "2026-07-01",
+   "end": "2027-06-30",
+   "renewal": "2027-06-30",
+   "status_kind": "ok",
+   "status_label": "Active",
+   "auto_renew": "Renews automatically unless cancelled 60 days before the end date",
+   "services": [
+    {
+     "order": 0,
+     "name": "Liquidity provision",
+     "scope": "Continuous two-sided quotes in elite shares on XETRA"
+    },
+    {
+     "order": 1,
+     "name": "Spread and time-in-market monitoring",
+     "scope": "Daily coverage"
+    },
+    {
+     "order": 2,
+     "name": "Liquidity reporting",
+     "scope": "Monthly liquidity review"
+    },
+    {
+     "order": 3,
+     "name": "Shareholder analysis",
+     "scope": "Quarterly"
+    }
+   ]
+  }
+ ],
+ "reports": [
+  {
+   "order": 0,
+   "title": "Monthly liquidity review",
+   "period": "September 2026",
+   "published": "2026-10-04",
+   "file": "reports/monthly-liquidity-review.pdf"
+  },
+  {
+   "order": 1,
+   "title": "Trading activity summary",
+   "period": "Q3 2026",
+   "published": "2026-10-02",
+   "file": "reports/trading-activity-summary.pdf"
+  },
+  {
+   "order": 2,
+   "title": "Annual market review",
+   "period": "2025",
+   "published": "2026-01-12",
+   "file": "reports/annual-market-review.pdf"
+  }
+ ],
+ "links": [
+  {
+   "code": "L5",
+   "token": "lnk-b7k2x4",
+   "companies": [
+    "c2",
+    "elite"
+   ],
+   "created": "2026-10-20",
+   "expires": "2026-11-03",
+   "status": "unused",
+   "used_on": null,
+   "used_by_email": "",
+   "used_by_name": ""
+  },
+  {
+   "code": "L4",
+   "token": "lnk-x91q3m",
+   "companies": [
+    "c2"
+   ],
+   "created": "2026-09-28",
+   "expires": "2026-10-12",
+   "status": "expired",
+   "used_on": null,
+   "used_by_email": "",
+   "used_by_name": ""
+  },
+  {
+   "code": "L3",
+   "token": "lnk-m4n8d2",
+   "companies": [
+    "c1",
+    "c2",
+    "elite"
+   ],
+   "created": "2026-09-21",
+   "expires": "2026-10-05",
+   "status": "used",
+   "used_on": "2026-09-22",
+   "used_by_email": "diego@acme.co",
+   "used_by_name": "Diego Alvarez"
+  },
+  {
+   "code": "L2",
+   "token": "lnk-77aa9k",
+   "companies": [
+    "elite"
+   ],
+   "created": "2026-09-14",
+   "expires": "2026-09-28",
+   "status": "used",
+   "used_on": "2026-09-14",
+   "used_by_email": "omar@elite.com",
+   "used_by_name": "Omar Siddiqui"
+  },
+  {
+   "code": "L1",
+   "token": "lnk-12cc5t",
+   "companies": [
+    "c1"
+   ],
+   "created": "2026-09-02",
+   "expires": "2026-09-16",
+   "status": "used",
+   "used_on": "2026-09-03",
+   "used_by_email": "aisha.khan@gmail.com",
+   "used_by_name": "Aisha Khan"
+  }
+ ],
+ "requests": [
+  {
+   "code": "R4",
+   "name": "Priya Nair",
+   "email": "priya.nair@helios-power.example",
+   "company": "Helios Power AG",
+   "message": "We are listed on XETRA and would like to see liquidity reporting for our shares.",
+   "received": "2026-10-21",
+   "status": "pending"
+  },
+  {
+   "code": "R3",
+   "name": "Marc Dubois",
+   "email": "m.dubois@nordvik.example",
+   "company": "Nordvik Industries",
+   "message": "Interested in peer comparison against European industrials.",
+   "received": "2026-10-20",
+   "status": "pending"
+  },
+  {
+   "code": "R2",
+   "name": "Hanna Weber",
+   "email": "hanna@weber-capital.example",
+   "company": "Weber Capital",
+   "message": "Please share pricing for the investor relations plan.",
+   "received": "2026-10-15",
+   "status": "approved"
+  },
+  {
+   "code": "R1",
+   "name": "Chris Walker",
+   "email": "chris@walker-media.example",
+   "company": "Walker Media",
+   "message": "Looking for market data for a news article.",
+   "received": "2026-10-09",
+   "status": "rejected"
+  }
+ ],
+ "people": [
+  {
+   "key": "p1",
+   "first": "Khan",
+   "last": "Abid",
+   "email": "khan@gmail.com",
+   "kind": "admin",
+   "is_owner": false,
+   "companies": [],
+   "manages": [],
+   "tenant_key": null,
+   "status": "active",
+   "via": "",
+   "invited_by_key": null,
+   "token": null
+  },
+  {
+   "key": "p2",
+   "first": "Xavier",
+   "last": "Young",
+   "email": "xy@gmail.com",
+   "kind": "admin",
+   "is_owner": false,
+   "companies": [],
+   "manages": [],
+   "tenant_key": null,
+   "status": "active",
+   "via": "",
+   "invited_by_key": null,
+   "token": null
+  },
+  {
+   "key": "p3",
+   "first": "Aisha",
+   "last": "Khan",
+   "email": "aisha.khan@gmail.com",
+   "kind": "client",
+   "is_owner": true,
+   "companies": [
+    "c1"
+   ],
+   "manages": [
+    "c1"
+   ],
+   "tenant_key": "p3",
+   "status": "active",
+   "via": "Sign-up link",
+   "invited_by_key": null,
+   "token": null
+  },
+  {
+   "key": "p4",
+   "first": "Mia",
+   "last": "Fischer",
+   "email": "mia.fischer@company1.example",
+   "kind": "colleague",
+   "is_owner": false,
+   "companies": [
+    "c1"
+   ],
+   "manages": [],
+   "tenant_key": "p3",
+   "status": "active",
+   "via": "Team invite",
+   "invited_by_key": "p3",
+   "token": null
+  },
+  {
+   "key": "p5",
+   "first": "Lena",
+   "last": "Brandt",
+   "email": "lena@brandt.io",
+   "kind": "colleague",
+   "is_owner": false,
+   "companies": [
+    "c1"
+   ],
+   "manages": [],
+   "tenant_key": "p3",
+   "status": "pending",
+   "via": "Team invite",
+   "invited_by_key": "p3",
+   "token": "colleague-lena-9x2m"
+  },
+  {
+   "key": "p6",
+   "first": "Jordan",
+   "last": "Lee",
+   "email": "jordan@example.com",
+   "kind": "guest",
+   "is_owner": false,
+   "companies": [
+    "c1"
+   ],
+   "manages": [],
+   "tenant_key": "p3",
+   "status": "pending",
+   "via": "Team invite",
+   "invited_by_key": "p3",
+   "token": "guest-jordan-7f3k"
+  },
+  {
+   "key": "p7",
+   "first": "Omar",
+   "last": "Siddiqui",
+   "email": "omar@elite.com",
+   "kind": "client",
+   "is_owner": true,
+   "companies": [
+    "elite"
+   ],
+   "manages": [
+    "elite"
+   ],
+   "tenant_key": "p7",
+   "status": "active",
+   "via": "Sign-up link",
+   "invited_by_key": null,
+   "token": null
+  },
+  {
+   "key": "p8",
+   "first": "Diego",
+   "last": "Alvarez",
+   "email": "diego@acme.co",
+   "kind": "client",
+   "is_owner": true,
+   "companies": [
+    "c1",
+    "c2",
+    "elite"
+   ],
+   "manages": [
+    "c1",
+    "c2",
+    "elite"
+   ],
+   "tenant_key": "p8",
+   "status": "active",
+   "via": "Sign-up link",
+   "invited_by_key": null,
+   "token": null
+  },
+  {
+   "key": "p9",
+   "first": "Priya",
+   "last": "Shah",
+   "email": "priya.shah@acme.co",
+   "kind": "colleague",
+   "is_owner": false,
+   "companies": [
+    "c2",
+    "elite"
+   ],
+   "manages": [
+    "c2"
+   ],
+   "tenant_key": "p8",
+   "status": "active",
+   "via": "Team invite",
+   "invited_by_key": "p8",
+   "token": null
+  },
+  {
+   "key": "p10",
+   "first": "Marco",
+   "last": "Rossi",
+   "email": "marco@rossi-advisory.example",
+   "kind": "guest",
+   "is_owner": false,
+   "companies": [
+    "c2"
+   ],
+   "manages": [],
+   "tenant_key": "p8",
+   "status": "active",
+   "via": "Team invite",
+   "invited_by_key": "p8",
+   "token": null
+  },
+  {
+   "key": "p11",
+   "first": "Sara",
+   "last": "Malik",
+   "email": "sara.m@gmail.com",
+   "kind": "client",
+   "is_owner": true,
+   "companies": [
+    "c2"
+   ],
+   "manages": [
+    "c2"
+   ],
+   "tenant_key": "p11",
+   "status": "pending",
+   "via": "Sign-up link (expired)",
+   "invited_by_key": null,
+   "token": null
+  }
+ ],
+ "tickets": [
+  {
+   "code": "DB-1052",
+   "subject": "Add a custom peer group",
+   "company": "c1",
+   "by_key": "p3",
+   "by": "Aisha Khan",
+   "status": "client",
+   "created": "2026-10-21",
+   "updated_label": "Yesterday",
+   "messages": [
+    {
+     "order": 0,
+     "sender": "client",
+     "name": "Aisha Khan",
+     "at_label": "21 Oct · 10:05",
+     "text": "Could we compare Company 1 against three named competitors instead of the standard industrials group?"
+    },
+    {
+     "order": 1,
+     "sender": "support",
+     "name": "Mara · Deltablock support",
+     "at_label": "21 Oct · 15:40",
+     "text": "Named peers are not possible because peer data is anonymised, but we can build a custom group by sector and market cap. Which size range would you like?"
+    }
+   ]
+  },
+  {
+   "code": "DB-1048",
+   "subject": "September report clarification",
+   "company": "c1",
+   "by_key": "p3",
+   "by": "Aisha Khan",
+   "status": "ours",
+   "created": "2026-10-19",
+   "updated_label": "Today, 09:42",
+   "messages": [
+    {
+     "order": 0,
+     "sender": "client",
+     "name": "Aisha Khan",
+     "at_label": "19 Oct · 16:12",
+     "text": "The September report shows turnover of 0.84%, but the overview shows 0.05% for the last 24 hours. Which period does the report use?"
+    },
+    {
+     "order": 1,
+     "sender": "support",
+     "name": "Mara · Deltablock support",
+     "at_label": "20 Oct · 09:30",
+     "text": "The report uses the full calendar month, the overview uses the last 24 hours. We are adding the period to the report footer."
+    },
+    {
+     "order": 2,
+     "sender": "client",
+     "name": "Aisha Khan",
+     "at_label": "20 Oct · 11:02",
+     "text": "Thanks. Can you also confirm that time in market uses the same calendar month?"
+    },
+    {
+     "order": 3,
+     "sender": "support",
+     "name": "Mara · Deltablock support",
+     "at_label": "Today · 09:42",
+     "text": "Confirmed, both use the calendar month. I will send the updated PDF shortly."
+    }
+   ]
+  },
+  {
+   "code": "DB-1039",
+   "subject": "Exchange data delay",
+   "company": "c2",
+   "by_key": "p8",
+   "by": "Diego Alvarez",
+   "status": "client",
+   "created": "2026-10-17",
+   "updated_label": "Yesterday",
+   "messages": [
+    {
+     "order": 0,
+     "sender": "client",
+     "name": "Diego Alvarez",
+     "at_label": "17 Oct · 08:50",
+     "text": "The Company 2 trade feed looks about two hours behind. Is this on your side or the exchange?"
+    },
+    {
+     "order": 1,
+     "sender": "support",
+     "name": "Mara · Deltablock support",
+     "at_label": "21 Oct · 14:10",
+     "text": "The delay comes from the Euronext delivery. It is catching up. Could you tell us if you still see gaps after 18:00 UTC?"
+    }
+   ]
+  },
+  {
+   "code": "DB-0982",
+   "subject": "Invoice DB-2026-007",
+   "company": "c1",
+   "by_key": "p3",
+   "by": "Aisha Khan",
+   "status": "done",
+   "created": "2026-09-15",
+   "updated_label": "18 Sep 2026",
+   "messages": [
+    {
+     "order": 0,
+     "sender": "client",
+     "name": "Aisha Khan",
+     "at_label": "15 Sep · 09:15",
+     "text": "Please resend invoice DB-2026-007, it did not reach our accounting inbox."
+    },
+    {
+     "order": 1,
+     "sender": "support",
+     "name": "Mara · Deltablock support",
+     "at_label": "18 Sep · 10:20",
+     "text": "Resent to accounting@company1.example. You can also download it under Statements."
+    }
+   ]
+  }
+ ],
+ "feeds": [
+  {
+   "order": 0,
+   "company": "c1",
+   "name": "Trades",
+   "latest": "23 Oct · 14:32 UTC",
+   "expected": "15 min",
+   "records": "1,284",
+   "status_kind": "ok",
+   "status_label": "Up to date"
+  },
+  {
+   "order": 1,
+   "company": "c1",
+   "name": "Reference prices",
+   "latest": "23 Oct · 14:30 UTC",
+   "expected": "15 min",
+   "records": "412",
+   "status_kind": "ok",
+   "status_label": "Up to date"
+  },
+  {
+   "order": 2,
+   "company": "c2",
+   "name": "Trades",
+   "latest": "23 Oct · 12:18 UTC",
+   "expected": "15 min",
+   "records": "986",
+   "status_kind": "warn",
+   "status_label": "Delayed"
+  },
+  {
+   "order": 3,
+   "company": "c2",
+   "name": "Reference prices",
+   "latest": "23 Oct · 14:28 UTC",
+   "expected": "15 min",
+   "records": "398",
+   "status_kind": "ok",
+   "status_label": "Up to date"
+  },
+  {
+   "order": 4,
+   "company": "elite",
+   "name": "Trades",
+   "latest": "23 Oct · 14:29 UTC",
+   "expected": "15 min",
+   "records": "756",
+   "status_kind": "ok",
+   "status_label": "Up to date"
+  },
+  {
+   "order": 5,
+   "company": "elite",
+   "name": "Reference prices",
+   "latest": "23 Oct · 14:31 UTC",
+   "expected": "15 min",
+   "records": "240",
+   "status_kind": "ok",
+   "status_label": "Up to date"
+  }
+ ],
+ "trades": [
+  {
+   "company": "c1",
+   "seq": 0,
+   "executed_at": "2026-10-23T14:22:00",
+   "trade_id": "C1-88190",
+   "side": "Buy",
+   "shares": 3700,
+   "price": 0.8485324761291779,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 1,
+   "executed_at": "2026-10-23T11:04:00",
+   "trade_id": "C1-88151",
+   "side": "Sell",
+   "shares": 4000,
+   "price": 0.8456519048881856,
+   "venue": "Tradegate"
+  },
+  {
+   "company": "c1",
+   "seq": 2,
+   "executed_at": "2026-10-22T17:12:00",
+   "trade_id": "C1-88095",
+   "side": "Buy",
+   "shares": 8000,
+   "price": 0.842137172201569,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 3,
+   "executed_at": "2026-10-22T14:57:00",
+   "trade_id": "C1-88046",
+   "side": "Buy",
+   "shares": 3700,
+   "price": 0.8454071419934834,
+   "venue": "Tradegate"
+  },
+  {
+   "company": "c1",
+   "seq": 4,
+   "executed_at": "2026-10-22T11:25:00",
+   "trade_id": "C1-88017",
+   "side": "Sell",
+   "shares": 6900,
+   "price": 0.8432515327442855,
+   "venue": "Tradegate"
+  },
+  {
+   "company": "c1",
+   "seq": 5,
+   "executed_at": "2026-10-21T17:10:00",
+   "trade_id": "C1-87976",
+   "side": "Buy",
+   "shares": 2200,
+   "price": 0.8349052533913449,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 6,
+   "executed_at": "2026-10-21T14:50:00",
+   "trade_id": "C1-87951",
+   "side": "Sell",
+   "shares": 6000,
+   "price": 0.8382797646447643,
+   "venue": "Tradegate"
+  },
+  {
+   "company": "c1",
+   "seq": 7,
+   "executed_at": "2026-10-21T11:33:00",
+   "trade_id": "C1-87940",
+   "side": "Buy",
+   "shares": 1100,
+   "price": 0.8310984562678402,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 8,
+   "executed_at": "2026-10-21T09:40:00",
+   "trade_id": "C1-87884",
+   "side": "Sell",
+   "shares": 20100,
+   "price": 0.8420388349785376,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 9,
+   "executed_at": "2026-10-20T17:22:00",
+   "trade_id": "C1-87868",
+   "side": "Sell",
+   "shares": 3600,
+   "price": 0.8440706878760551,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 10,
+   "executed_at": "2026-10-20T12:41:00",
+   "trade_id": "C1-87829",
+   "side": "Buy",
+   "shares": 2200,
+   "price": 0.8379648309589037,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 11,
+   "executed_at": "2026-10-20T10:09:00",
+   "trade_id": "C1-87772",
+   "side": "Buy",
+   "shares": 800,
+   "price": 0.8488237408854253,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 12,
+   "executed_at": "2026-10-17T17:01:00",
+   "trade_id": "C1-87732",
+   "side": "Buy",
+   "shares": 2700,
+   "price": 0.8511742850738577,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 13,
+   "executed_at": "2026-10-17T15:23:00",
+   "trade_id": "C1-87690",
+   "side": "Sell",
+   "shares": 8300,
+   "price": 0.8318703810917539,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 14,
+   "executed_at": "2026-10-17T12:59:00",
+   "trade_id": "C1-87681",
+   "side": "Sell",
+   "shares": 7300,
+   "price": 0.8526293042293842,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 15,
+   "executed_at": "2026-10-17T10:06:00",
+   "trade_id": "C1-87626",
+   "side": "Buy",
+   "shares": 1800,
+   "price": 0.8410992740199389,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 16,
+   "executed_at": "2026-10-16T17:24:00",
+   "trade_id": "C1-87615",
+   "side": "Sell",
+   "shares": 9400,
+   "price": 0.8342152613863395,
+   "venue": "Tradegate"
+  },
+  {
+   "company": "c1",
+   "seq": 17,
+   "executed_at": "2026-10-16T13:34:00",
+   "trade_id": "C1-87591",
+   "side": "Buy",
+   "shares": 12100,
+   "price": 0.8329228279032186,
+   "venue": "Tradegate"
+  },
+  {
+   "company": "c1",
+   "seq": 18,
+   "executed_at": "2026-10-16T11:25:00",
+   "trade_id": "C1-87562",
+   "side": "Sell",
+   "shares": 6300,
+   "price": 0.8371304187474167,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 19,
+   "executed_at": "2026-10-16T09:13:00",
+   "trade_id": "C1-87509",
+   "side": "Sell",
+   "shares": 7700,
+   "price": 0.8525595686663406,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 20,
+   "executed_at": "2026-10-15T17:05:00",
+   "trade_id": "C1-87447",
+   "side": "Sell",
+   "shares": 13900,
+   "price": 0.8511884493782463,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 21,
+   "executed_at": "2026-10-15T13:55:00",
+   "trade_id": "C1-87407",
+   "side": "Buy",
+   "shares": 18500,
+   "price": 0.8371530483862617,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 22,
+   "executed_at": "2026-10-15T12:26:00",
+   "trade_id": "C1-87380",
+   "side": "Buy",
+   "shares": 500,
+   "price": 0.8373040412242152,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 23,
+   "executed_at": "2026-10-15T10:25:00",
+   "trade_id": "C1-87350",
+   "side": "Buy",
+   "shares": 1300,
+   "price": 0.8318060643487004,
+   "venue": "Tradegate"
+  },
+  {
+   "company": "c1",
+   "seq": 24,
+   "executed_at": "2026-10-14T17:04:00",
+   "trade_id": "C1-87324",
+   "side": "Sell",
+   "shares": 1200,
+   "price": 0.840952823070432,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 25,
+   "executed_at": "2026-10-14T14:32:00",
+   "trade_id": "C1-87285",
+   "side": "Buy",
+   "shares": 1000,
+   "price": 0.85159129233866,
+   "venue": "Tradegate"
+  },
+  {
+   "company": "c1",
+   "seq": 26,
+   "executed_at": "2026-10-14T11:56:00",
+   "trade_id": "C1-87254",
+   "side": "Buy",
+   "shares": 2100,
+   "price": 0.8443747934966954,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 27,
+   "executed_at": "2026-10-13T17:16:00",
+   "trade_id": "C1-87225",
+   "side": "Buy",
+   "shares": 2100,
+   "price": 0.8425316375177399,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 28,
+   "executed_at": "2026-10-13T13:21:00",
+   "trade_id": "C1-87170",
+   "side": "Buy",
+   "shares": 600,
+   "price": 0.841899022889845,
+   "venue": "XETRA"
+  },
+  {
+   "company": "c1",
+   "seq": 29,
+   "executed_at": "2026-10-13T10:25:00",
+   "trade_id": "C1-87120",
+   "side": "Sell",
+   "shares": 6800,
+   "price": 0.833765818340755,
+   "venue": "Tradegate"
+  },
+  {
+   "company": "c2",
+   "seq": 0,
+   "executed_at": "2026-10-23T14:22:00",
+   "trade_id": "C2-88210",
+   "side": "Buy",
+   "shares": 2400,
+   "price": 1.2752101330742613,
+   "venue": "Cboe Europe"
+  },
+  {
+   "company": "c2",
+   "seq": 1,
+   "executed_at": "2026-10-23T13:20:00",
+   "trade_id": "C2-88190",
+   "side": "Sell",
+   "shares": 15300,
+   "price": 1.2487674710967391,
+   "venue": "Cboe Europe"
+  },
+  {
+   "company": "c2",
+   "seq": 2,
+   "executed_at": "2026-10-23T09:29:00",
+   "trade_id": "C2-88134",
+   "side": "Sell",
+   "shares": 17000,
+   "price": 1.263195093577169,
+   "venue": "Euronext Amsterdam"
+  },
+  {
+   "company": "c2",
+   "seq": 3,
+   "executed_at": "2026-10-22T17:22:00",
+   "trade_id": "C2-88109",
+   "side": "Sell",
+   "shares": 5600,
+   "price": 1.247948235890232,
+   "venue": "Euronext Amsterdam"
+  },
+  {
+   "company": "c2",
+   "seq": 4,
+   "executed_at": "2026-10-22T14:36:00",
+   "trade_id": "C2-88044",
+   "side": "Buy",
+   "shares": 1600,
+   "price": 1.2644875924749672,
+   "venue": "Euronext Amsterdam"
+  },
+  {
+   "company": "c2",
+   "seq": 5,
+   "executed_at": "2026-10-22T12:09:00",
+   "trade_id": "C2-87979",
+   "side": "Buy",
+   "shares": 1200,
+   "price": 1.2708097149722652,
+   "venue": "Cboe Europe"
+  },
+  {
+   "company": "c2",
+   "seq": 6,
+   "executed_at": "2026-10-21T17:22:00",
+   "trade_id": "C2-87936",
+   "side": "Buy",
+   "shares": 1600,
+   "price": 1.2486298581393436,
+   "venue": "Euronext Amsterdam"
+  },
+  {
+   "company": "c2",
+   "seq": 7,
+   "executed_at": "2026-10-21T13:19:00",
+   "trade_id": "C2-87901",
+   "side": "Buy",
+   "shares": 10900,
+   "price": 1.2776955259961633,
+   "venue": "Euronext Amsterdam"
+  },
+  {
+   "company": "c2",
+   "seq": 8,
+   "executed_at": "2026-10-21T09:10:00",
+   "trade_id": "C2-87845",
+   "side": "Buy",
+   "shares": 7700,
+   "price": 1.2473239720905944,
+   "venue": "Euronext Amsterdam"
+  },
+  {
+   "company": "c2",
+   "seq": 9,
+   "executed_at": "2026-10-20T17:14:00",
+   "trade_id": "C2-87789",
+   "side": "Buy",
+   "shares": 5000,
+   "price": 1.2546252795676514,
+   "venue": "Euronext Amsterdam"
+  },
+  {
+   "company": "c2",
+   "seq": 10,
+   "executed_at": "2026-10-20T15:08:00",
+   "trade_id": "C2-87759",
+   "side": "Sell",
+   "shares": 3800,
+   "price": 1.2755845199084281,
+   "venue": "Euronext Amsterdam"
+  },
+  {
+   "company": "c2",
+   "seq": 11,
+   "executed_at": "2026-10-20T13:17:00",
+   "trade_id": "C2-87739",
+   "side": "Sell",
+   "shares": 2000,
+   "price": 1.2601737590352073,
+   "venue": "Euronext Amsterdam"
+  },
+  {
+   "company": "c2",
+   "seq": 12,
+   "executed_at": "2026-10-20T11:25:00",
+   "trade_id": "C2-87677",
+   "side": "Sell",
+   "shares": 15700,
+   "price": 1.2501714289005845,
+   "venue": "Cboe Europe"
+  },
+  {
+   "company": "c2",
+   "seq": 13,
+   "executed_at": "2026-10-17T17:18:00",
+   "trade_id": "C2-87637",
+   "side": "Sell",
+   "shares": 2200,
+   "price": 1.280911537402794,
+   "venue": "Euronext Amsterdam"
+  },
+  {
+   "company": "c2",
+   "seq": 14,
+   "executed_at": "2026-10-17T12:49:00",
+   "trade_id": "C2-87609",
+   "side": "Buy",
+   "shares": 9300,
+   "price": 1.265376048285924,
+   "venue": "Cboe Europe"
+  },
+  {
+   "company": "c2",
+   "seq": 15,
+   "executed_at": "2026-10-17T09:03:00",
+   "trade_id": "C2-87565",
+   "side": "Buy",
+   "shares": 18400,
+   "price": 1.2625520645143091,
+   "venue": "Cboe Europe"
+  },
+  {
+   "company": "c2",
+   "seq": 16,
+   "executed_at": "2026-10-16T17:14:00",
+   "trade_id": "C2-87536",
+   "side": "Sell",
+   "shares": 4600,
+   "price": 1.2502946171478928,
+   "venue": "Cboe Europe"
+  },
+  {
+   "company": "c2",
+   "seq": 17,
+   "executed_at": "2026-10-16T13:18:00",
+   "trade_id": "C2-87498",
+   "side": "Sell",
+   "shares": 19700,
+   "price": 1.2707278515757994,
+   "venue": "Euronext Amsterdam"
+  },
+  {
+   "company": "c2",
+   "seq": 18,
+   "executed_at": "2026-10-16T10:10:00",
+   "trade_id": "C2-87435",
+   "side": "Sell",
+   "shares": 1500,
+   "price": 1.2593379303694516,
+   "venue": "Cboe Europe"
+  },
+  {
+   "company": "c2",
+   "seq": 19,
+   "executed_at": "2026-10-15T17:08:00",
+   "trade_id": "C2-87413",
+   "side": "Sell",
+   "shares": 800,
+   "price": 1.2651572089222818,
+   "venue": "Cboe Europe"
+  },
+  {
+   "company": "c2",
+   "seq": 20,
+   "executed_at": "2026-10-15T12:21:00",
+   "trade_id": "C2-87365",
+   "side": "Buy",
+   "shares": 14900,
+   "price": 1.2650052906308695,
+   "venue": "Cboe Europe"
+  },
+  {
+   "company": "c2",
+   "seq": 21,
+   "executed_at": "2026-10-15T10:22:00",
+   "trade_id": "C2-87307",
+   "side": "Sell",
+   "shares": 8900,
+   "price": 1.2483891115671395,
+   "venue": "Euronext Amsterdam"
+  },
+  {
+   "company": "c2",
+   "seq": 22,
+   "executed_at": "2026-10-14T17:17:00",
+   "trade_id": "C2-87288",
+   "side": "Buy",
+   "shares": 10700,
+   "price": 1.2775968085631728,
+   "venue": "Euronext Amsterdam"
+  },
+  {
+   "company": "c2",
+   "seq": 23,
+   "executed_at": "2026-10-14T16:03:00",
+   "trade_id": "C2-87235",
+   "side": "Sell",
+   "shares": 4300,
+   "price": 1.260807523866929,
+   "venue": "Cboe Europe"
+  },
+  {
+   "company": "c2",
+   "seq": 24,
+   "executed_at": "2026-10-14T14:57:00",
+   "trade_id": "C2-87179",
+   "side": "Sell",
+   "shares": 16000,
+   "price": 1.2636777602022142,
+   "venue": "Euronext Amsterdam"
+  },
+  {
+   "company": "c2",
+   "seq": 25,
+   "executed_at": "2026-10-14T12:44:00",
+   "trade_id": "C2-87116",
+   "side": "Sell",
+   "shares": 7900,
+   "price": 1.2737273801594602,
+   "venue": "Euronext Amsterdam"
+  },
+  {
+   "company": "c2",
+   "seq": 26,
+   "executed_at": "2026-10-14T11:35:00",
+   "trade_id": "C2-87057",
+   "side": "Sell",
+   "shares": 3800,
+   "price": 1.2618434588940441,
+   "venue": "Euronext Amsterdam"
+  },
+  {
+   "company": "c2",
+   "seq": 27,
+   "executed_at": "2026-10-13T17:19:00",
+   "trade_id": "C2-87012",
+   "side": "Buy",
+   "shares": 16900,
+   "price": 1.2629142644916473,
+   "venue": "Cboe Europe"
+  },
+  {
+   "company": "c2",
+   "seq": 28,
+   "executed_at": "2026-10-13T15:11:00",
+   "trade_id": "C2-86955",
+   "side": "Sell",
+   "shares": 1500,
+   "price": 1.2544627809329705,
+   "venue": "Cboe Europe"
+  },
+  {
+   "company": "c2",
+   "seq": 29,
+   "executed_at": "2026-10-13T14:02:00",
+   "trade_id": "C2-86924",
+   "side": "Buy",
+   "shares": 2300,
+   "price": 1.2483731771881132,
+   "venue": "Euronext Amsterdam"
+  },
+  {
+   "company": "elite",
+   "seq": 0,
+   "executed_at": "2026-10-23T14:22:00",
+   "trade_id": "ELT-88218",
+   "side": "Buy",
+   "shares": 10600,
+   "price": 2.091032387608802,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 1,
+   "executed_at": "2026-10-23T10:07:00",
+   "trade_id": "ELT-88173",
+   "side": "Sell",
+   "shares": 9400,
+   "price": 2.0914035153391586,
+   "venue": "Tradegate"
+  },
+  {
+   "company": "elite",
+   "seq": 2,
+   "executed_at": "2026-10-22T17:10:00",
+   "trade_id": "ELT-88151",
+   "side": "Buy",
+   "shares": 4300,
+   "price": 2.0840891994002835,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 3,
+   "executed_at": "2026-10-22T15:17:00",
+   "trade_id": "ELT-88106",
+   "side": "Buy",
+   "shares": 6000,
+   "price": 2.102332302246364,
+   "venue": "Tradegate"
+  },
+  {
+   "company": "elite",
+   "seq": 4,
+   "executed_at": "2026-10-22T13:24:00",
+   "trade_id": "ELT-88063",
+   "side": "Sell",
+   "shares": 800,
+   "price": 2.1335591326388155,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 5,
+   "executed_at": "2026-10-22T09:04:00",
+   "trade_id": "ELT-88050",
+   "side": "Sell",
+   "shares": 10000,
+   "price": 2.1177278089938594,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 6,
+   "executed_at": "2026-10-21T17:06:00",
+   "trade_id": "ELT-88035",
+   "side": "Sell",
+   "shares": 2800,
+   "price": 2.099486089590369,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 7,
+   "executed_at": "2026-10-21T15:32:00",
+   "trade_id": "ELT-88005",
+   "side": "Sell",
+   "shares": 15700,
+   "price": 2.1227492171493916,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 8,
+   "executed_at": "2026-10-21T11:31:00",
+   "trade_id": "ELT-87989",
+   "side": "Sell",
+   "shares": 9600,
+   "price": 2.0809783809571063,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 9,
+   "executed_at": "2026-10-20T17:10:00",
+   "trade_id": "ELT-87968",
+   "side": "Sell",
+   "shares": 3700,
+   "price": 2.1079674582740013,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 10,
+   "executed_at": "2026-10-20T15:20:00",
+   "trade_id": "ELT-87957",
+   "side": "Sell",
+   "shares": 700,
+   "price": 2.0906923065817913,
+   "venue": "Tradegate"
+  },
+  {
+   "company": "elite",
+   "seq": 11,
+   "executed_at": "2026-10-20T13:46:00",
+   "trade_id": "ELT-87913",
+   "side": "Sell",
+   "shares": 8900,
+   "price": 2.104092812916702,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 12,
+   "executed_at": "2026-10-20T10:01:00",
+   "trade_id": "ELT-87869",
+   "side": "Sell",
+   "shares": 3700,
+   "price": 2.1035068877349423,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 13,
+   "executed_at": "2026-10-17T17:20:00",
+   "trade_id": "ELT-87835",
+   "side": "Sell",
+   "shares": 1100,
+   "price": 2.1102517091642694,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 14,
+   "executed_at": "2026-10-17T14:58:00",
+   "trade_id": "ELT-87797",
+   "side": "Buy",
+   "shares": 600,
+   "price": 2.08551378786725,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 15,
+   "executed_at": "2026-10-17T11:59:00",
+   "trade_id": "ELT-87778",
+   "side": "Sell",
+   "shares": 4200,
+   "price": 2.1196054557160475,
+   "venue": "Tradegate"
+  },
+  {
+   "company": "elite",
+   "seq": 16,
+   "executed_at": "2026-10-16T17:03:00",
+   "trade_id": "ELT-87734",
+   "side": "Sell",
+   "shares": 15500,
+   "price": 2.135127058741916,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 17,
+   "executed_at": "2026-10-16T13:18:00",
+   "trade_id": "ELT-87712",
+   "side": "Buy",
+   "shares": 5600,
+   "price": 2.1311953199515026,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 18,
+   "executed_at": "2026-10-16T10:27:00",
+   "trade_id": "ELT-87678",
+   "side": "Buy",
+   "shares": 9400,
+   "price": 2.134875729877874,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 19,
+   "executed_at": "2026-10-15T17:13:00",
+   "trade_id": "ELT-87624",
+   "side": "Sell",
+   "shares": 10000,
+   "price": 2.131881300173998,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 20,
+   "executed_at": "2026-10-15T14:17:00",
+   "trade_id": "ELT-87562",
+   "side": "Sell",
+   "shares": 4300,
+   "price": 2.1263218538103343,
+   "venue": "Tradegate"
+  },
+  {
+   "company": "elite",
+   "seq": 21,
+   "executed_at": "2026-10-15T13:06:00",
+   "trade_id": "ELT-87517",
+   "side": "Buy",
+   "shares": 800,
+   "price": 2.127031815176811,
+   "venue": "Tradegate"
+  },
+  {
+   "company": "elite",
+   "seq": 22,
+   "executed_at": "2026-10-15T11:14:00",
+   "trade_id": "ELT-87484",
+   "side": "Sell",
+   "shares": 600,
+   "price": 2.1084877396150588,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 23,
+   "executed_at": "2026-10-14T17:17:00",
+   "trade_id": "ELT-87452",
+   "side": "Buy",
+   "shares": 6000,
+   "price": 2.0812397058516647,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 24,
+   "executed_at": "2026-10-14T14:44:00",
+   "trade_id": "ELT-87417",
+   "side": "Sell",
+   "shares": 5700,
+   "price": 2.0937583420914785,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 25,
+   "executed_at": "2026-10-14T12:32:00",
+   "trade_id": "ELT-87397",
+   "side": "Buy",
+   "shares": 12600,
+   "price": 2.1057815786963423,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 26,
+   "executed_at": "2026-10-14T10:16:00",
+   "trade_id": "ELT-87389",
+   "side": "Sell",
+   "shares": 16000,
+   "price": 2.1099606678103844,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 27,
+   "executed_at": "2026-10-13T17:10:00",
+   "trade_id": "ELT-87354",
+   "side": "Sell",
+   "shares": 10300,
+   "price": 2.1381286379331534,
+   "venue": "Tradegate"
+  },
+  {
+   "company": "elite",
+   "seq": 28,
+   "executed_at": "2026-10-13T13:19:00",
+   "trade_id": "ELT-87319",
+   "side": "Sell",
+   "shares": 700,
+   "price": 2.1009138342653495,
+   "venue": "XETRA"
+  },
+  {
+   "company": "elite",
+   "seq": 29,
+   "executed_at": "2026-10-13T12:05:00",
+   "trade_id": "ELT-87257",
+   "side": "Sell",
+   "shares": 2200,
+   "price": 2.1364211059124023,
+   "venue": "XETRA"
+  }
+ ],
+ "statements": [
+  {
+   "company": "c1",
+   "order": 0,
+   "document": "Invoice DB-2026-009",
+   "period": "September 2026",
+   "issued": "2026-10-01",
+   "amount": 4800,
+   "status_kind": "ok",
+   "status_label": "Paid"
+  },
+  {
+   "company": "c1",
+   "order": 1,
+   "document": "Invoice DB-2026-008",
+   "period": "August 2026",
+   "issued": "2026-09-01",
+   "amount": 4800,
+   "status_kind": "ok",
+   "status_label": "Paid"
+  },
+  {
+   "company": "c1",
+   "order": 2,
+   "document": "Statement 2026-Q2",
+   "period": "Apr–Jun 2026",
+   "issued": "2026-07-05",
+   "amount": 14400,
+   "status_kind": "ok",
+   "status_label": "Paid"
+  },
+  {
+   "company": "c2",
+   "order": 0,
+   "document": "Invoice DB-2026-020",
+   "period": "October 2026",
+   "issued": "2026-10-01",
+   "amount": 6400,
+   "status_kind": "warn",
+   "status_label": "Due 15 Nov 2026"
+  },
+  {
+   "company": "c2",
+   "order": 1,
+   "document": "Invoice DB-2026-019",
+   "period": "September 2026",
+   "issued": "2026-10-01",
+   "amount": 6400,
+   "status_kind": "ok",
+   "status_label": "Paid"
+  },
+  {
+   "company": "c2",
+   "order": 2,
+   "document": "Invoice DB-2026-018",
+   "period": "August 2026",
+   "issued": "2026-09-01",
+   "amount": 6400,
+   "status_kind": "ok",
+   "status_label": "Paid"
+  },
+  {
+   "company": "c2",
+   "order": 3,
+   "document": "Statement 2026-Q2",
+   "period": "Apr–Jun 2026",
+   "issued": "2026-07-05",
+   "amount": 19200,
+   "status_kind": "ok",
+   "status_label": "Paid"
+  },
+  {
+   "company": "elite",
+   "order": 0,
+   "document": "Invoice DB-2026-029",
+   "period": "September 2026",
+   "issued": "2026-10-01",
+   "amount": 5600,
+   "status_kind": "ok",
+   "status_label": "Paid"
+  },
+  {
+   "company": "elite",
+   "order": 1,
+   "document": "Invoice DB-2026-028",
+   "period": "August 2026",
+   "issued": "2026-09-01",
+   "amount": 5600,
+   "status_kind": "ok",
+   "status_label": "Paid"
+  },
+  {
+   "company": "elite",
+   "order": 2,
+   "document": "Statement 2026-Q2",
+   "period": "Apr–Jun 2026",
+   "issued": "2026-07-05",
+   "amount": 16800,
+   "status_kind": "ok",
+   "status_label": "Paid"
+  }
+ ],
+ "access_log": {
+  "total": 1096,
+  "base": [
+   {
+    "first": "Khan",
+    "last": "Abid",
+    "email": "khan@gmail.com",
+    "company": "Admin"
+   },
+   {
+    "first": "Aisha",
+    "last": "Khan",
+    "email": "aisha.khan@gmail.com",
+    "company": "Company 1"
+   },
+   {
+    "first": "Omar",
+    "last": "Siddiqui",
+    "email": "omar@elite.com",
+    "company": "elite"
+   },
+   {
+    "first": "Diego",
+    "last": "Alvarez",
+    "email": "diego@acme.co",
+    "company": "Company 2"
+   },
+   {
+    "first": "Mia",
+    "last": "Fischer",
+    "email": "mia.fischer@company1.example",
+    "company": "Company 1"
+   },
+   {
+    "first": "Priya",
+    "last": "Shah",
+    "email": "priya.shah@acme.co",
+    "company": "Company 2"
+   },
+   {
+    "first": "Xavier",
+    "last": "Young",
+    "email": "xy@gmail.com",
+    "company": "Admin"
+   },
+   {
+    "first": "Marco",
+    "last": "Rossi",
+    "email": "marco@rossi-advisory.example",
+    "company": "Company 2"
+   },
+   {
+    "first": "Diego",
+    "last": "Alvarez",
+    "email": "diego@acme.co",
+    "company": "elite"
+   },
+   {
+    "first": "Aisha",
+    "last": "Khan",
+    "email": "aisha.khan@gmail.com",
+    "company": "Company 1"
+   }
+  ],
+  "start_utc": "2026-10-22T08:41:00Z",
+  "step_minutes": 7
+ }
+}
