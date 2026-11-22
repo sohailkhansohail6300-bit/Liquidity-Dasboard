@@ -2,7 +2,7 @@
 
 Deltablock is a web portal prototype for liquidity-service clients and administrators. It brings company-level liquidity metrics, market activity, reports, team access, subscriptions, and support workflows into one role-aware workspace.
 
-> **Prototype notice:** All market and company data in this repository is demonstration data. It is not connected to a live market feed and must not be used for investment or operational decisions. This project is still in progress; review [STATUS.md](./STATUS.md) before relying on feature completeness.
+> **Prototype notice:** All market and company data in this repository is demonstration data. It is not connected to a live market feed and must not be used for investment or operational decisions. This project is still in progress; 
 
 ## What the application does
 
